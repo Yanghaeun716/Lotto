@@ -20,5 +20,4 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, NameActivity::class.java))
         }
     }
-    }
 }
