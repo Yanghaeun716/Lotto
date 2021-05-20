@@ -54,7 +54,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cv_constell"
+        android:id="@+id/cardConstellation"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.333"

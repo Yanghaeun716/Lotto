@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val cv_constell = findViewById<CardView>(R.id.cv_constell)
+        val cardConstellation = findViewById<CardView>(R.id.cardConstellation)
 
-        cv_constell.setOnClickListener{
+        cardConstellation.setOnClickListener{
             startActivity(Intent(this@MainActivity, ConstellationActivity::class.java))
         }
     }
