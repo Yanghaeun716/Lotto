@@ -22,6 +22,13 @@ class ResultActivity : AppCompatActivity() {
         val imageView5 = findViewById<ImageView>(R.id.imageView5)
         val imageView6 = findViewById<ImageView>(R.id.imageView6)
 
+        imageView1.setImageResource(lottoBallImageStartId + result_sorted[0] - 1)
+        imageView2.setImageResource(lottoBallImageStartId + result_sorted[1] - 1)
+        imageView3.setImageResource(lottoBallImageStartId + result_sorted[2] - 1)
+        imageView4.setImageResource(lottoBallImageStartId + result_sorted[3] - 1)
+        imageView5.setImageResource(lottoBallImageStartId + result_sorted[4] - 1)
+        imageView6.setImageResource(lottoBallImageStartId + result_sorted[5] - 1)
+
 
 
     }
