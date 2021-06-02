@@ -23,9 +23,9 @@ class ConstellationActivity : AppCompatActivity() {
 
         btnGoResultConstell.setOnClickListener {
             val intent = Intent(this, ResultActivity::class.java)
-            intent.putExtra("year", Integer.toString(datePicker.year));
-            intent.putExtra("month", Integer.toString(datePicker.month +1));
-            intent.putExtra("dayOfMonth", Integer.toString(datePicker.dayOfMonth));
+            intent.putExtra("year", Integer.toString(datePicker.year))
+            intent.putExtra("month", Integer.toString(datePicker.month +1))
+            intent.putExtra("dayOfMonth", Integer.toString(datePicker.dayOfMonth))
             startActivity(intent)
         }
 
