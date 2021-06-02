@@ -22,6 +22,10 @@ class ResultActivity : AppCompatActivity() {
             resultLabel.text = "${sConstellation}의 ${SimpleDateFormat("yyyy년 MM월 dd일").format(Date())} 로또 번호입니다"
         }
 
+        val year = intent.getStringExtra("year")
+        val month = intent.getStringExtra("month")
+        val dayOfMonth = intent.getStringExtra("dayOfMonth")
+
         val imageView1 = findViewById<ImageView>(R.id.imageView1)
         val imageView2 = findViewById<ImageView>(R.id.imageView2)
         val imageView3 = findViewById<ImageView>(R.id.imageView3)
